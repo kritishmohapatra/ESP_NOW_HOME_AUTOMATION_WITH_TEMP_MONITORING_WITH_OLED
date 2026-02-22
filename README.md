@@ -1,4 +1,4 @@
-# 🏡 ESP-NOW Smart Relay & Sensor System (MicroPython)
+#  ESP-NOW Smart Relay & Sensor System (MicroPython)
 ![ESP8266](https://img.shields.io/badge/Board-ESP8266-1E90FF?style=for-the-badge&logo=espressif)
 ![MicroPython](https://img.shields.io/badge/MicroPython-FF69B4?style=for-the-badge&logo=micropython)
 ![Protocol](https://img.shields.io/badge/Protocol-ESP--NOW-32CD32?style=for-the-badge)
@@ -11,7 +11,7 @@ The **Sender device** acts as a control panel with physical buttons and an OLED 
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 | Feature | Sender Device (Control Panel) | Receiver Device (Actuator/Sensor Hub) |
 |---------|------------------------------|-------------------------------------|
@@ -22,7 +22,7 @@ The **Sender device** acts as a control panel with physical buttons and an OLED 
 
 ---
 
-## 🛠️ Hardware Requirements
+##  Hardware Requirements
 
 ### Sender Board
 - 1x ESP32/ESP8266 Development Board  
@@ -39,7 +39,7 @@ The **Sender device** acts as a control panel with physical buttons and an OLED 
 
 ---
 
-## 🔌 Wiring Diagram (Based on Code)
+##  Wiring Diagram (Based on Code)
 ![Sender Circuit Diagram](Circuit_Diagram/send_image.png)
 
 ### Sender Connections (sender.py)
@@ -65,7 +65,7 @@ The **Sender device** acts as a control panel with physical buttons and an OLED 
 
 ---
 
-## ⚙️ Configuration and Setup
+##  Configuration and Setup
 
 ### 1. Get the Receiver's MAC Address
 On the Receiver board, run the following in the MicroPython REPL:
@@ -91,7 +91,7 @@ esp.add_peer(peer)
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 - **Control:** Press any button on the Sender to toggle the corresponding relay.  
 - **Monitoring:** Receiver reads DHT sensor every 2 seconds and sends data back.  
@@ -104,7 +104,7 @@ esp.add_peer(peer)
 
 ---
 
-### 👨‍💻 Author
+###  Author
 
 -   **Name:** Kritish
 -   **GitHub:** [Kritish Mohapatra](https://github.com/kritishmohapatra)
